@@ -14,4 +14,4 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "37560692-f84dac91-1146-42f1-9de0-962e846d05c7" -e "37560692-f718193b-da9c-4dbc-9d36-2dc8058fbcb3" --iteration-data "C:\Users\Yaelle\OneDrive\Documents\Ella_files\Learning\API_Postman\test_data_jira_csv.csv"
+          postman collection run "37560692-f84dac91-1146-42f1-9de0-962e846d05c7" -e "37560692-f718193b-da9c-4dbc-9d36-2dc8058fbcb3" -d "C:\Users\Yaelle\OneDrive\Documents\Ella_files\Learning\API_Postman\test_data_jira_csv.csv"
